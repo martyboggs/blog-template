@@ -482,7 +482,6 @@ header .bg {
 	border: 1px solid #666;
 	display: inline-block;
 	padding: 0 5px;
-	margin: 3px 0;
 }
 
 .min-height {
@@ -498,10 +497,6 @@ header .bg {
 	padding: 15px;
 	margin: 0 auto;
 	background: white;
-}
-.blog-image {
-	display: block;
-	margin-bottom: 40px;
 }
 
 
@@ -650,14 +645,13 @@ section {
 	background: rgba(255,255,255,0.1);
 	line-height: 1.2;
 	margin-bottom: 40px;
-	color: white;
 }
 .page-header h1 {
-	color: white;
+
 }
-.page-header p.author,
-.page-header p.date {
+.page-header p.author {
 	margin-bottom: 0;
+	color: #bfbfbf;
 }
 
 #downloads {
