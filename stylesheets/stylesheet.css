@@ -458,7 +458,7 @@ header h1 {
 }
 
 header .bg {
-	background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+	background: #2e7bcf;
 	width: 100%;
 	height: 632px;
 	position: absolute;
@@ -641,13 +641,13 @@ section {
 }
 
 .page-header {
-	padding: 60px 0;
+	padding: 68px 0;
 	background: rgba(255,255,255,0.1);
 	line-height: 1.2;
 	margin-bottom: 40px;
 }
 .page-header h1 {
-
+	color: white;
 }
 .page-header p.author {
 	margin-bottom: 0;
