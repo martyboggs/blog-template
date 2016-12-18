@@ -493,8 +493,12 @@ header .bg {
 	min-height: 500px;
 }
 
-.margin-bottom {
+.s5 h2 {
 	margin-bottom: 54px;
+}
+
+.margin-bottom {
+	margin-bottom: 40px;
 }
 
 .blog-inner {
@@ -507,9 +511,6 @@ header .bg {
 .archive-inner {
 	max-width: 1000px;
 	margin: 0 auto;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
 }
 @media (max-width: 1199px) {
 	.archive-inner {
@@ -621,7 +622,6 @@ section {
 	display: flex;
 	flex-direction: column;
 	width: 252px;
-	min-height: 420px;
 	background: #ecf1ff;
 	margin: 0 15px 37px 15px;
 	transition: all 0.3s;
@@ -631,7 +631,7 @@ section {
 	transition: all 0.2s;
 }
 .box .text {
-	padding: 0 15px 15px 15px;
+	padding: 0 15px;
 }
 .box p {
 	visibility: none;
@@ -659,6 +659,11 @@ section {
 .box:hover button {
 	visibility: visible;
 	opacity: 1;
+}
+
+i {
+	display: inline-block;
+	margin-right: 10px;
 }
 
 .page-header {
